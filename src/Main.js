@@ -11,16 +11,17 @@ const MainPage = ({history}) => {
 
     return (
         <header className="App-header">
-            <img src={'/penni.jpeg'} className="App-logo" alt="logo" />
+            <img src={'/penni.jpg'} className="App-logo" alt="logo" />
             <div style={{margin:'5vh'}}>
                 <p>
-                    Do you want to see something interesting here? <br/>
-                    Click red buttons, if you are not afraid!
+                    <br/>
+                    This is my porfolio <br/>
+                    Click buttons to see more pictures.
                 </p>
             </div>
             <div>
-                <Button type="danger" style={{marginRight: '2vw'}} onClick={()=>{onClick('/left/')}}>Left button</Button>
-                <Button type="danger" style={{marginLeft: '2vw'}} onClick={()=>{onClick('/right/')}}>Right button</Button>
+                <Button type="primary" style={{marginRight: '2vw'}} onClick={()=>{onClick('/left/')}}>Syberia</Button>
+                <Button type="primary" style={{marginLeft: '2vw'}} onClick={()=>{onClick('/right/')}}>Kazakhstan</Button>
             </div>
 
         </header>

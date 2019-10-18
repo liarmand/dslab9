@@ -25,11 +25,6 @@ const Dead = () => {
                          alt="Dead"
                          style={{width:'60vw',height:'100vh', margin:'0 20vw'}}/>
                 </div>
-                <div>
-                    <img src={'/4.jpg'} className="App-logo"
-                         alt="Dead"
-                         style={{width:'60vw',height:'100vh', margin:'0 20vw'}}/>
-                </div>
             </Carousel>
         </div>
     )

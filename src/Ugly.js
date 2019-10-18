@@ -1,12 +1,38 @@
+import {Carousel} from 'antd';
 import React from "react";
 
-const Ugly = () => {
+const Dead = () => {
 
-    return <div>
-        <img src={'https://i.gifer.com/ngI.gif'}
-             alt="Dead"
-             style={{width:'100vw',height:'100vh'}}/>
-    </div>
+    const onChange = (a, b, c) => {
+        console.log(a, b, c);
+    };
+
+    return (
+        <div style={{background: 'black', height: '120vh'}}>
+            <Carousel>
+                <div style={{height:'80vh'}}>
+                    <img src={'/4.jpg'} className="App-logo"
+                         alt="Dead"
+                         style={{width:'60vw',height:'100vh', margin:'0 20vw'}}/>
+                </div>
+                <div>
+                    <img src={'/5.jpg'} className="App-logo"
+                         alt="Dead"
+                         style={{width:'60vw',height:'100vh', margin:'0 20vw'}}/>
+                </div>
+                <div>
+                    <img src={'/6.jpg'} className="App-logo"
+                         alt="Dead"
+                         style={{width:'60vw',height:'100vh', margin:'0 20vw'}}/>
+                </div>
+                <div>
+                    <img src={'/7.jpg'} className="App-logo"
+                         alt="Dead"
+                         style={{width:'60vw',height:'100vh', margin:'0 20vw'}}/>
+                </div>
+            </Carousel>
+        </div>
+    )
 };
 
-export default Ugly;
+export default Dead;
